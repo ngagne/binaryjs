@@ -10,17 +10,19 @@ http://binaryjs.com
 
 Node binary websocket streaming made easy
 
+SSL Support added by Nick Gagne
+
 
 ## Download
 
 Server
 
 ```console
-$ npm install binaryjs
+$ npm install git://github.com/ngagne/binaryjs.git
 ```
 or from Git
 ```console
-$ git clone git://github.com/binaryjs/binaryjs.git
+$ git clone git://github.com/ngagne/binaryjs.git
 $ cd binaryjs
 $ npm install -g
 ```
