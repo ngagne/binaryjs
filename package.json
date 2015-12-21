@@ -1,12 +1,12 @@
 {
-  "author": "Eric Zhang (http://ericzhang.com)",
+  "author": "Nick Gagne / Eric Zhang (http://ericzhang.com)",
   "name": "binaryjs",
   "description": "Binary realtime streaming made easy",
   "version": "0.2.2",
   "homepage": "http://binaryjs.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/binaryjs/binaryjs.git"
+    "url": "git://github.com/ngagne/binaryjs.git"
   },
   "main": "lib/server.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "node": ">=0.10.20"
   },
   "dependencies": {
-    "streamws": ">=0.1.1",
+    "streamws": "git://github.com/ngagne/streamws.git",
     "binarypack": ">=0.0.4",
     "streamers": ">=0.1.0"
   },
